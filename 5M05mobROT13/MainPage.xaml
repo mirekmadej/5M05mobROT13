@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_5M05mobROT13.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="ROT13 za pomocą tablicy liter"
+                FontSize="Large"
+                FontAttributes="Bold"
+                />
+            <Entry
+                Placeholder="podaj tekst do zakodowania/odkodowania"
+                x:Name="entText"
+                />
+            <Button
+                Text="zakoduj/zdekoduj"
+                Clicked="btmROT13clicked"
+                />
+            <Label
+                Text="operacje za pomoca kodów ASCII"
+                FontSize="Large"
+                FontAttributes="Bold"
+                />
+            <Entry
+                Placeholder="podaj tekst do zakodowania/odkodowania"
+                x:Name="entText2"
+                />
+            <Button
+                Text="zakoduj/zdekoduj"
+                Clicked="btmROT13clicked2"
+                />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
